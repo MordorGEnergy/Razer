@@ -1,0 +1,280 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: RazerF5, sans-serif;
+}
+body a{
+    text-decoration: none;
+}
+.header_up{
+    display: flex;
+    height: 3vh;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 1%;
+    top:0;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.registration{
+    color: white;
+    font-size: ;
+    padding-left: 5vw;
+}
+.svg_b_menu{
+    display: none;
+    height: 5vw;
+    width: 5vw;
+}
+.menu1{
+    display: flex;
+    width: 60%;
+    padding-right:5vw ;
+    justify-content: end;
+}
+.menuup1{
+    display: flex;
+    gap: 1vw;
+    list-style: none;
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.phone_numb{
+    font-size: 1.7vh;
+    color: gray;
+}
+.grad_numb{
+    font-size: 1.5vh;
+}
+.header_center{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 8vh;
+    align-items: center; 
+    justify-content: space-between;
+}
+.menu_800px{
+    display: none;
+}
+.lishki{
+    color: black;
+    font-size: 1vw;
+}
+.lishki_1{
+    color: rgb(161, 29, 29);
+    font-size: 1vw;
+}
+.lishki:hover{
+    transform: scale(1.05);
+    color: rgb(0, 202, 0);
+}
+.lishki_1:hover{
+    transform: scale(1.05);
+    color: rgb(0, 185, 0);
+}
+.zagolovok1{
+    display: flex;
+    width: 55%;
+    padding-left: 5vw;
+}
+.zagl{
+    font-size: 2vh;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.zagl:hover{
+    transform: scale(1.01);
+    color: rgb(0, 185, 0);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+}
+.section1{
+    display: flex;
+    background-image: url(ny.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 5%;
+    gap: 1.6vw;
+    margin-bottom: 0.7vw;
+}
+.excl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff9c08;
+    width: 10vw;
+    height: 2vw;
+    color: #000;
+}
+.excl_sl{
+    font-size: 0.8vw;
+}
+.button_obsh{
+    display: flex;
+    justify-content: center;
+}
+.button_for{
+    font-size: 1.4vw;
+}
+.zagolovok_section{
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+}
+.podzagolovok_section{
+    font-size: 1.7vw;
+    font-weight: 100;
+}
+.button_uzn{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+    border: 3px solid transparent;
+    color: white;
+}
+.button_by{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+    border: 3px solid transparent;
+    color: white;
+}
+.ugl_strel{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.section2{
+    display: flex;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.partX{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 80vh;
+    width: 100vw;
+    color: white;
+    padding: 5%;
+    gap: 1.6vw;
+    margin-bottom: 0.7vw;
+    background-position: center;
+}
+.part1{
+    display: flex;
+    background-image: url(id.webp);
+    background-repeat: no-repeat;
+}
+.part2{ 
+    display: flex;
+    background-image: url(Kraken-V4-Pro-HP-1920x700-v2.webp);
+    background-repeat: no-repeat;
+}
+.part3{   
+    display: flex;
+    background-image: url(Viper-V3-Pro-HP-1920x700-v3.webp);
+    background-repeat: no-repeat;
+}
+.part4{  
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 30vw;
+    width: 50vw;
+    padding-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8vw;
+}
+.zagolovok_section_c{
+    font-size: 2.5vw;
+    text-align: center;
+}
+.podzagolovok_section_c{
+    font-size: 1.3vw;
+    font-weight: 100;
+    text-align: center;
+}
+.card_para{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8vw;
+    margin-bottom: 0.8vw;
+}
+.card1{
+    background-image: url(Aether-Smart-Lamp-Pro-HP-Small-home-desktop-v2.webp);
+}
+.card2{
+    background-image: url(main-mini-banner-for-razer-barracuda-x-black-2022-desktop.jpg);
+}
+.card3{
+    background-image: url(basilisk-v3-pro-35k-white-HP-Small-home-desktop.webp);
+}
+.card4{
+    background-image: url(main-mini-banner-for-BlackWidow-V4-Pro-desktop-v2.webp);
+}
+.card5{
+    background-image: url(main-mini-banner-for-Huntsman-V3-Pro-desktop-v2.webp);
+}
+.card6{
+    background-image: url(DeathAdder-V3-Pro-HP-Small-home-desktop-v3.webp);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    background-color: #1f1f1f;
+}
+.footer_1{
+    display: flex;
+    height: 80%;
+}
+.footer_2{
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    align-items: center;
+    color: #50524e;
+}
+.prava{
+    color: rgb(0, 202, 0);
+}
